@@ -9,8 +9,8 @@ function WeatherDisplay({ weather }) {
 
   return (
     <div>
-      <p style={temperatureStyle}>Temperature: {temperature}</p>
-      <p>Conditions: {conditions}</p>
+      <span style={temperatureStyle}>Temperature: {temperature}</span>
+      <span>Conditions: {conditions}</span>
     </div>
   );
 }
